@@ -1,0 +1,4 @@
+<script>
+  const event = new EventSource('/reload-status')
+  event.addEventListener('message', () => location.reload())
+</script>
